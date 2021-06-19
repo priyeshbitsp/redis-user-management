@@ -4,7 +4,8 @@
   "description": "Redis user management",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "start-cache": "nodemon index-responseTime-comparison"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
     "method-override": "^3.0.0",
+    "node-fetch": "^2.6.1",
     "redis": "^3.1.2"
   }
 }
