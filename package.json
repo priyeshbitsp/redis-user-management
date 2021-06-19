@@ -1,0 +1,22 @@
+{
+  "name": "redis-user-management",
+  "version": "1.0.0",
+  "description": "Redis user management",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:priyeshbitsp/redis-user-management.git"
+  },
+  "author": "Priyesh Jammula",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "method-override": "^3.0.0",
+    "redis": "^3.1.2"
+  }
+}
